@@ -97,6 +97,17 @@ namespace donguler
             }
             */
 
+            // SONSUZ DÖNGÜ
+            int i = 0;
+            for (; ; )
+            {
+                i++;
+                Console.WriteLine("Sonsuzluk");
+                if (i==24)
+                {
+                    break;
+                }
+            }
 
         }
     }

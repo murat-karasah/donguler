@@ -6,7 +6,20 @@ namespace donguler
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+             int sayi=0;
+            int i;
+            for ( i = 1; i < 101; i++)
+            {
+
+                if (i%2==0)
+                {
+                     sayi = sayi + i;
+                }
+
+            }
+
+
+            Console.WriteLine($"{sayi}");
         }
     }
 }

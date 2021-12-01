@@ -18,10 +18,18 @@ namespace donguler
                 }
                 Console.WriteLine($"{sayi}");*/
 
-            for (int i = 100; i >= 0; i-=4)
+            /* for (int i = 100; i >= 0; i-=4)
+             {
+                 Console.WriteLine(i);
+             }*/
+            int fak = 1;
+            Console.WriteLine("bir sayı giriniz");
+            int enter = Convert.ToInt32(Console.ReadLine());
+            for (int i = 1; i<=enter; i++)
             {
-                Console.WriteLine(i);
+                fak*= i;
             }
+            Console.WriteLine($"Faktoriyel {fak}");
         }
     }
 }          

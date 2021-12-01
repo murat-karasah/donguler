@@ -31,6 +31,18 @@ namespace donguler
                  fak*= i;
              }
              Console.WriteLine($"Faktoriyel {fak}");*/
+            int sayi = 0;
+            int son = 0;
+            Console.WriteLine("Ortalamasını almak istediğiniz sayı adeti:");
+            int adet = Convert.ToInt32(Console.ReadLine());
+            for (int i = 1; i <= adet; i++)
+            {
+                Console.WriteLine($"{i}.Sayı Giriniz");
+                 sayi = Convert.ToInt32(Console.ReadLine());
+                son+=  sayi;
+            }
+          int sonuc= son / adet;
+            Console.WriteLine(sonuc);
         }
     }
 }          

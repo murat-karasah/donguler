@@ -22,14 +22,15 @@ namespace donguler
              {
                  Console.WriteLine(i);
              }*/
-            int fak = 1;
-            Console.WriteLine("bir sayı giriniz");
-            int enter = Convert.ToInt32(Console.ReadLine());
-            for (int i = 1; i<=enter; i++)
-            {
-                fak*= i;
-            }
-            Console.WriteLine($"Faktoriyel {fak}");
+            /*https://www.kodbloklari.com/csharp-faktoriyel-hesaplama/
+             * int fak = 1;
+             Console.WriteLine("bir sayı giriniz");
+             int enter = Convert.ToInt32(Console.ReadLine());
+             for (int i = 1; i<=enter; i++)
+             {
+                 fak*= i;
+             }
+             Console.WriteLine($"Faktoriyel {fak}");*/
         }
     }
 }          
